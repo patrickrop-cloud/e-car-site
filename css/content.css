@@ -1,5 +1,12 @@
 body{
-    background-color: blue;
+    background-color: cadetblue;
+}
+.btn-primary{
+    margin: 10px;
+    height: 30px;
+    width: 150px;
+    border-radius: 5px;
+    text-align: center;
 }
 #car1{
    background-image: url("../img/car1.jpg");
