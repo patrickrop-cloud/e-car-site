@@ -9,38 +9,51 @@ body{
     text-align: center;
 }
 #car1{
-   background-image: url("../img/car1.jpg");
+   background-image: url("img/car1.jpg");
 }
 #car2{
-    background-image: url("../img/car2.jpg");
+    background-image: url("img/car2.jpg");
 }
 #car3{
-    background-image: url("../img/car3.jpg");
+    background-image: url("img/car3.jpg");
 }
 #car4{
-    background-image: url("../img/car4.jpg");
+    background-image: url("img/car4.jpg");
 }
 #car5{
-    background-image: url("../img/car5.jpg");
+    background-image: url("img/car5.jpg");
 }
 #car6{
-    background-image: url("../img/car6.jpg");
+    background-image: url("img/car6.jpg");
 }
 #car7{
-    background-image: url("../img/car7.jpg");
+    background-image: url("img/car7.jpg");
 }
 #car8{
-    background-image: url("../img/car8.jpg");
+    background-image: url("img/car8.jpg");
 }
 #car9{
-    background-image: url("../img/car9.jpg");
+    background-image: url("img/car9.jpg");
 }
 #car10{
-    background-image: url("../img/car10.jpg");
+    background-image: url("img/car10.jpg");
 }
 #car11{
-    background-image: url("../img/car11.jpg");
+    background-image: url("img/car11.jpg");
 }
 #car12{
-    background-image: url("../img/pexels-mike-116675.jpg");
+    background-image: url("img/pexels-mike-116675.jpg");
+}
+p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.col-sm-3{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#search{
+    margin-top: 10px;
+    display: flex;
+    justify-content: right;
 }
