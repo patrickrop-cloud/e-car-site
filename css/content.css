@@ -1,6 +1,25 @@
 body{
     background-color: cadetblue;
 }
+ul{
+    display: flex;
+    flex-direction: row;
+    margin-left: 500px;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    background-color: cyan;
+}
+.navigation{
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+}
 .btn-primary{
     margin: 10px;
     height: 30px;
@@ -9,40 +28,76 @@ body{
     text-align: center;
 }
 #car1{
-   background-image: url("img/car1.jpg");
+   background-image: url("../img/car1.jpg");
+   width: 200px;
+   height: 200px;
+   background-size: 200px 200px;
 }
 #car2{
-    background-image: url("img/car2.jpg");
+    background-image: url("../img/car2.jpg");
+    width: 200px;
+    height: 200px;
+    background-size: 200px 200px;
 }
 #car3{
-    background-image: url("img/car3.jpg");
+    background-image: url("../img/car3.jpg");
+    width: 200px;
+    height: 200px;
+    background-size: 200px 200px;
 }
 #car4{
-    background-image: url("img/car4.jpg");
+    background-image: url("../img/car4.jpg");
+    width: 200px;
+    height: 200px;
+    background-size: 200px 200px;
 }
 #car5{
-    background-image: url("img/car5.jpg");
+    background-image: url("../img/car5.jpg");
+    width: 200px;
+    height: 200px;
+    background-size: 200px 200px;
 }
 #car6{
-    background-image: url("img/car6.jpg");
+    background-image: url("../img/car6.jpg");
+    width: 200px;
+    height: 200px;
+    background-size: 200px 200px;
 }
 #car7{
-    background-image: url("img/car7.jpg");
+    background-image: url("../img/car7.jpg");
+    width: 200px;
+    height: 200px;
+    background-size: 200px 200px;
 }
 #car8{
-    background-image: url("img/car8.jpg");
+    background-image: url("../img/car8.jpg");
+    width: 200px;
+    height: 200px;
+    background-size: 200px 200px;
 }
 #car9{
-    background-image: url("img/car9.jpg");
+    background-image: url("../img/car9.jpg");
+    width: 200px;
+    height: 200px;
+    background-size: 200px 200px;
 }
 #car10{
-    background-image: url("img/car10.jpg");
+    background-image: url("../img/car10.jpg");
+    width: 200px;
+    height: 200px;
+    background-size: 200px 200px;
 }
 #car11{
-    background-image: url("img/car11.jpg");
+    background-image: url("../img/car11.jpg");
+    width: 200px;
+    height: 200px;
+    background-size: 200px 200px;
 }
 #car12{
-    background-image: url("img/pexels-mike-116675.jpg");
+    background-image: url("../img/pexels-mike-116675.jpg");
+    width: 200px;
+    height: 200px;
+    background-size: 200px 200px;
 }
 p{
     margin-top: 0px;
@@ -52,8 +107,47 @@ p{
     margin-bottom: 10px;
     margin-top: 10px;
 }
+.col-sm-3>p{
+    display: none;
+}
+form #srch{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    float: right;
+}
 #search{
     margin-top: 10px;
     display: flex;
-    justify-content: right;
+}
+#icon1{
+    background-color: white;
+    width: 22px;
+    height: 30px;
+}
+.btn-primary{
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+}
+.model{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 100%;
+    border: 2px solid black;
+    
+}
+.model a{
+    color: black;
+    display: block;
+}
+.model a:hover{
+    background-color: #f1f1f1
+}
+.btn-primary:hover .model{
+    display: block;
+}
+.btn-primary:hover span{
+    background-color: #3e8e41;
 }
