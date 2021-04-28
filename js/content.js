@@ -1,6 +1,7 @@
 $(document).ready(function(){
     $("#dropdown1").click(function(){
         $("#model1").toggle();
+        
     });
     $("#dropdown2").click(function(){
         $("#model2").toggle();
