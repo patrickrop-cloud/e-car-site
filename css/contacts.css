@@ -13,7 +13,7 @@ a{
     text-decoration: none;
 }
 a:hover{
-    background-color: cyan;
+    background-color:hotpink;
 }
 .navigation{
     margin: 10px;
@@ -25,4 +25,25 @@ a:hover{
     margin-left: 350px;
     margin-right: -350px;
     margin-top: 0px;
+}
+.container-f{
+    text-align: center;
+    background-color:rgb(153, 245, 245);
+    width: 100%;
+
+
+}
+#header{
+    text-align: center;
+    background-color:rgb(153, 245, 245);
+    width: 100%;
+
+}
+
+
+footer>img{
+    margin-top: 10px;
+}
+.btn-primary{
+    margin-top: 10px;
 }
