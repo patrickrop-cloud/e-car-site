@@ -60,7 +60,7 @@ $(document).ready(function () {
         var name = $('#name').val();
         var pass = $('#email').val();
         var mess = $('#mess').val();
-        alert("hello.Thank you for your order " + name + " we have received your message and we will get in touch. Thank you for contacting us");
+        alert("hello.Thank you for contacting us " + name + " we have received your message and we will get in touch soon.");
     });
 
 
