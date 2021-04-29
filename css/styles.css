@@ -51,6 +51,7 @@ a:hover{
     margin: 10px;
     font-size: 20px;
     font-weight: bolder;
+    margin-left: 85px;
 }
 p{
     text-align: center;
@@ -85,11 +86,7 @@ p{
 .container-f{
     text-align: center;
     background-color:rgb(153, 245, 245);
-
-    width: 100%;
-    bottom: 0;
-    left: 0;
-    
+    width: 100%;  
 }
 .home{
     color:white;
@@ -124,4 +121,15 @@ p{
     margin-left: 189px;
     margin-right: auto;
 }
-
+#header{
+    text-align: center;
+    background-color:rgb(153, 245, 245);
+    width: 100%; 
+    text-align: center; 
+}
+footer>img{
+    margin-top: 10px;
+}
+.container{
+    width: 100%;
+}
