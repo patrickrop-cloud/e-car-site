@@ -1,6 +1,3 @@
-body{
-    background-color: cadetblue;
-}
 ul{
     display: flex;
     flex-direction: row;
@@ -12,8 +9,9 @@ li{
 a{
     text-decoration: none;
 }
-a:hover{
+.mdl:hover{
     background-color: cyan;
+    border: 2px solid black;
 }
 .navigation{
     margin: 10px;
@@ -23,7 +21,7 @@ a:hover{
 .btn-primary{
     margin: 10px;
     height: 30px;
-    width: 150px;
+    width: 250px;
     border-radius: 5px;
     text-align: center;
 }
@@ -105,7 +103,7 @@ a:hover{
     margin-right: 10px;
 }
 #car12{
-    background-image: url("../img/pexels-mike-116675.jpg");
+    background-image: url("../img/car12.jpg");
     width: 200px;
     height: 200px;
     background-size: 200px 200px;
@@ -135,11 +133,13 @@ p{
 }
 
 
-form #srch{
+#srch{
+    margin-left: 10px;
     display: flex;
     flex-direction: row;
     justify-content: right;
-    float: right;
+    align-items: flex-end;
+    text-align: right;
 }
 #search{
     margin-top: 10px;
@@ -150,7 +150,7 @@ form #srch{
     width: 22px;
     height: 30px;
 }
-.btn-primary{
+/*.btn-primary{
     cursor: pointer;
     position: relative;
     display: inline-block;
@@ -163,10 +163,10 @@ form #srch{
     border: 2px solid black;
     
 }
-/*.model a{
+.model a{
     color: black;
     display: block;
-}*/
+}
 .model a:hover{
     background-color: #f1f1f1
 }
@@ -175,4 +175,36 @@ form #srch{
 }*/
 .btn-primary:hover span{
     background-color: #3e8e41;
+}
+#img1{
+    display: none;
+}
+.model{
+    display: none;
+    margin-left: 50px;
+}
+.mdl{
+    margin-left: 10px;
+    height: 30px;
+    width: 150px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.foot{
+    text-align: center;
+    background-color:rgb(153, 245, 245);
+    width: 100%;
+}
+
+#header{
+    text-align: center;
+    background-color:rgb(153, 245, 245);
+    width: 100%;
+}
+footer>img{
+    margin-top: 10px;
+}
+a:hover{
+    background-color: cyan;
 }

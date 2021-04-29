@@ -11,6 +11,7 @@
     <title>E-Cars</title>
 </head>
 <body>
+    <div id="header">
     <nav>
         <ul>
         <li><div class="navigation"><a href="#index.html">HOME</a></div></li>
@@ -18,37 +19,34 @@
         <li><div class="navigation"><a href="#contacts.html">ORDER</a></div></li>
         </ul>
     </nav>
+</div>
     <div id="search">
         <form>
             <div id="srch">
             <div><input type="text" placeholder="Search" class="search"></div>
-
             <div id="icon1"><img src="img/search.png" height="20px" width="20px" alt="search icon" ></div>
             </div>
         </form>
     </div>
     <div class="row">
         <div class="col-md-3" >
-            <div class="btn-primary" id="dropdown1">
-                <span>BMW</span>
+            <div class="btn-primary" id="dropdown1">BMW</div>
                 <div class="model" id="model1">
-                     <a href="#">Bentayga</a>
-                     <a href="#">Continental TG</a>
-                     <a href="#">Flying Spur</a>
-                     <a href="#">Mulsanne</a>
+                     <div class="mdl"><a href="#">Bentayga</a></div>
+                     <div class="mdl"><a href="#">Continental TG</a></div>
+                     <div class="mdl"><a href="#">Flying Spur</a></div>
+                     <div class="mdl"><a href="#">Mulsanne</a></div>
                 </div>
-            </div>
-            <div class="btn-primary" id="dropdown2">
-                <span>Chevrolet</span>
+            
+            <div class="btn-primary" id="dropdown2">Chevrolet</div>
                 <div class="model" id="model2">
-                    <a href="#">Blazer</a>
-                    <a href="#">Bolt EV</a>
-                    <a href="#">Colorado</a>
-                    <a href="#">Impala</a>
-                    <a href="#">Suburban</a>
-                    <a href="#">Trax</a>
+                    <div class="mdl"><a href="#">Blazer</a></div>
+                    <div class="mdl"><a href="#">Bolt EV</a></div>
+                    <div class="mdl"><a href="#">Colorado</a></div>
+                    <div class="mdl"><a href="#">Impala</a></div>
+                    <div class="mdl"> <a href="#">Suburban</a></div>
+                    <div class="mdl"><a href="#">Trax</a></div>
                 </div>
-            </div>
             <div class="btn-primary">Honda</div>
             <div class="btn-primary">Isuzu</div>
             <div class="btn-primary">Jaguar</div>
@@ -64,7 +62,9 @@
         </div>
 
         <div class="col-md-8">
-            <div class="row">
+            
+                <div id="img1"><img src="img/car1.jpg" alt="" height="400px" width="400px"></div>
+                <div class="row">
                 <div class="col-sm-3" id="car1" >
                     <div class="details">
                     <p>Make:Jeep</p> 
@@ -178,8 +178,25 @@
                     </div>
                 </div>
             </div>
-        </div>
+            
     </div>
+    </div>
+    <div class="foot">
+        <div class="footer">
+    <footer id="footer" action="#footer" method="POST">
+        <img src="img/twitter-square-brands.svg" height="2%" width="2%"  alt="none">
+        <img src="img/facebook-square-brands.svg" height="2%" width="2%"  alt="none">
+        <img src="img/google-plus-square-brands.svg" height="2%" width="2%"  alt="none">
+        <img src="img/youtube-square-brands.svg" height="2%" width="2%"  alt="none">
+        <img src="img/skype-brands.svg" height="2%" width="2%"  alt="none">
+        <img src="img/pinterest-square-brands.svg" height="2%" width="2%"  alt="none">
+        <h5> E-CAR SITE <br>2021</h5>
+        <div>
+          <i class="fa fa-copyright" aria-hidden="true"> All rights reserved!</i>
+        </div>
+      </footer>
+    </div>
+</div>
     
 </body>
 </html>

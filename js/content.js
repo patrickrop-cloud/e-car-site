@@ -43,5 +43,8 @@ $(document).ready(function(){
     $("#car12").hover(function(){
         $("#car12>.details").toggle();
     })
+    $(".details").click(function(){
+        $("#img1").toggle();
+    })
     
 })
