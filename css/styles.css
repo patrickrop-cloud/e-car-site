@@ -1,0 +1,135 @@
+.icon{
+margin-top: -50px;
+}
+h1{
+    color: white;
+    font-weight: bolder;
+    padding-top: -500px;
+    padding-bottom: -100px;
+    font-size: 90px;
+}
+.header2{
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+h2{
+    text-align: center;
+    color:aqua;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+}
+h5{
+    text-align: center;
+    color: black;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    background-color: hotpink;
+}
+.navigation{
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 85px;
+
+}
+p{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+#overlay{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 101%;
+    text-align: left;
+}
+#overlay2{
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-left: -90px;
+    height: 600px;
+    width: 100%;
+    margin-top: -98px;
+    margin-bottom: -100px;
+}
+#about{
+    text-align: center;
+}
+.services{
+    /* background-image: url("img/img19.jpg"); */
+    text-align: center;
+    font-size: 9px;
+    color: white;
+    background-repeat: no-repeat;
+    padding: 6%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-f{
+    text-align: center;
+    background-color:rgb(153, 245, 245);
+    width: 100%;  
+}
+.home{
+    color:white;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 50px;
+} 
+.welcome{
+    background-image: url("../img/img4.jpg");
+    background-size: cover;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: -100px;
+    color: white;
+    width: 100%;
+    height: 1000px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.about{
+    background-image: url("../img/img20.jpg");
+    width: 88%;
+    height: 150%; 
+    background-size: 88% 130%;  
+    text-align: center;
+    font-size: 18px;
+    color:black;
+    background-repeat: no-repeat;
+    padding: 6%;
+    margin-top: 50px;
+    margin-left: 189px;
+    margin-right: auto;
+}
+#header{
+    text-align: center;
+    background-color:rgb(153, 245, 245);
+    width: 100%; 
+    text-align: center; 
+}
+footer>img{
+    margin-top: 10px;
+}
+.container{
+    width: 100%;
+}

@@ -1,0 +1,75 @@
+body{
+    background-color:white;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    background-color:hotpink;
+}
+.navigation{
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.icon{
+    margin-top: -60px;
+    padding-bottom: 10px;
+}
+
+/* #form-m{
+    text-align: center;
+    margin-left: 350px;
+    margin-right: -350px;
+    margin-top: 0px;
+} */
+#contact-us{
+    background-color:rgb(153, 245, 245);
+    width: 100%;
+
+
+}
+#header{
+    text-align: center;
+    background-color:rgb(153, 245, 245);
+    width: 100%;
+
+}
+.footer{
+    margin-left: 25px;
+    padding-left: 30px;
+}
+
+
+footer>img{
+    margin-top: 10px;
+}
+.btn-primary{
+    margin-top: 10px;
+}
+.para{
+    text-align: center;
+    margin-top: 10px;
+    float: left;
+}
+#colo{
+    margin-left: 300px;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    margin: 3px;
+}
+#myForm{
+    background-color: whitesmoke;
+    padding: 10px;
+    margin-bottom: 15px;
+
+}
