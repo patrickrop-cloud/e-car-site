@@ -43,8 +43,46 @@ $(document).ready(function(){
     $("#car12").hover(function(){
         $("#car12>.details").toggle();
     })
-    $(".details").click(function(){
-        $("#img1").toggle();
+    $("#vehicle1").click(function(){
+          window.location.href = "contacts.html";    
     })
+    $("#vehicle2").click(function(){
+        window.location.href = "contacts.html";    
+  })
+  $("#vehicle3").click(function(){
+    window.location.href = "contacts.html";    
+})
+$("#vehicle4").click(function(){
+    window.location.href = "contacts.html";    
+})
+$("#vehicle5").click(function(){
+    window.location.href = "contacts.html";    
+})
+$("#vehicle6").click(function(){
+    window.location.href = "contacts.html";    
+})
+$("#vehicle7").click(function(){
+    window.location.href = "contacts.html";    
+})
+$("#vehicle8").click(function(){
+    window.location.href = "contacts.html";    
+})
+$("#vehicle9").click(function(){
+    window.location.href = "contacts.html";    
+})
+$("#vehicle10").click(function(){
+    window.location.href = "contacts.html";    
+})
+$("#vehicle11").click(function(){
+    window.location.href = "contacts.html";    
+})
+$("#vehicle12").click(function(){
+    window.location.href = "contacts.html";    
+})
+
+
+   //document.getElementById(".details").onclick (function () {
+   // window.location.href = "#index.html";
+  // });
     
 })

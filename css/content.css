@@ -1,7 +1,6 @@
 ul{
     display: flex;
     flex-direction: row;
-    margin-left: 500px;
 }
 li{
     list-style-type: none;
@@ -198,13 +197,21 @@ p{
 }
 
 #header{
-    text-align: center;
     background-color:rgb(153, 245, 245);
     width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+#caricon{
+    margin-top: 9px;
+    margin-left: 300px;
 }
 footer>img{
     margin-top: 10px;
 }
 a:hover{
-    background-color: cyan;
+    background-color: hotpink;
+}
+#icon1:hover{
+    background-color: blanchedalmond;
 }
